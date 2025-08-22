@@ -1,4 +1,6 @@
-import { useState, useEffect, ChangeEvent, FormEvent } from "react";
+"use client";
+import React, { useState, useEffect, FormEvent, ChangeEvent } from "react"; // Adicionado: useEffect, FormEvent, ChangeEvent
+import { useRouter } from "next/navigation";
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000";
 

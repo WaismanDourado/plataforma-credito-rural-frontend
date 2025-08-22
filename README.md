@@ -14,11 +14,12 @@
 
 ## Estrutura
 
+```
 plataforma-credito-rural-frontend/
-├── app/ # Rotas e páginas do App Router (obrigatório no Next.js)
-│ ├── layout.tsx # Layout raiz global (já existe)
-│ ├── page.tsx # Página principal (landing page, já existe)
-│ ├── **api/** # Rotas de API (para server-side fetching, ex: proxy para backend ML)
+├── app/                     # Rotas e páginas do App Router (obrigatório no Next.js)
+│ ├── layout.tsx             # Layout raiz global (já existe)
+│ ├── page.tsx               # Página principal (landing page, já existe)
+│ ├── **api/**               # Rotas de API (para server-side fetching, ex: proxy para backend ML)
 │ │ └── **proxy.ts** # Exemplo: Rota para chamar API de previsão de crédito
 │ ├── **dashboard/** # Nova página para dashboard de análises ML (futuro)
 │ │ └── page.tsx
@@ -60,5 +61,6 @@ plataforma-credito-rural-frontend/
 ├── tsconfig.json # Configuração TypeScript (já existe)
 └── **tests/** # Pasta para testes (nova sugestão, use Jest ou Vitest)
 └── **page.test.tsx** # Exemplo: Teste para a landing page
+```
 
 ## Integração com Backend
