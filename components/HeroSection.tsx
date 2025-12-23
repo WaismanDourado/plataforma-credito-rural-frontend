@@ -19,8 +19,8 @@ const HeroSection: React.FC = () => {
           Plataforma de Crédito Rural Inteligente
         </h1>
         <p className="text-xl md:text-2xl mb-8">
-          Análises precisas com Machine Learning (XGBoost) para aprovar créditos
-          rurais de forma rápida e segura. Ajude agricultores a crescerem!
+          Análises precisas com Machine Learning para aprovar créditos rurais de
+          forma rápida e segura!
         </p>
         <a
           href="#cadastro" // Ou link para uma página de sign-up

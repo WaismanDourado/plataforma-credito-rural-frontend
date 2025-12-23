@@ -22,7 +22,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Header da Landing Page (que agora pode ter Login/Logout) */}
-      <header className="bg-gray-800 text-white p-4 flex justify-between items-center">
+      <header className="bg-green-900 text-white p-4 flex justify-between items-center">
         <h1 className="text-xl font-bold">Plataforma de Crédito Rural</h1>
         <nav>
           {isLoading ? (
@@ -40,7 +40,7 @@ export default function HomePage() {
           ) : (
             <a
               href="/login"
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 rounded"
+              className="bg-green-600 hover:bg-green-700 text-white font-bold py-1 px-3 rounded"
             >
               Login
             </a>
